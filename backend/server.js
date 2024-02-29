@@ -7,7 +7,7 @@ const userRoutes = require("./routes/userRoutes")
 const { notFound, errorHandler } = require("./middlewares/errorMiddleware")
 const chatRoutes = require("./routes/chatRoutes")
 const messageRoutes = require("./routes/messageRoutes")
-cons
+const path = require("path")
 
 const app = express()
 dotenv.config()
